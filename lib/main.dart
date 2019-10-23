@@ -11,6 +11,9 @@ class MyApp extends StatelessWidget {
         'registro':(BuildContext context)=> RegistroPage(),
         'home' : (BuildContext context)=> HomePage(),
       },
+      theme: ThemeData(
+        primaryColor: Colors.black,
+      ),
       initialRoute: 'home',
       title: 'Material App',
     );

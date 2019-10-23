@@ -44,6 +44,22 @@ class _RegistroPageState extends State<RegistroPage> {
                       hintText: "Ingresa Tu Carrera"),
                 ),
                 SizedBox(height: 15),
+                TextFormField(
+                  decoration: InputDecoration(
+                    filled: true,
+                      icon: Icon(Icons.person_pin_circle),
+                      labelText: "Semestre",
+                      hintText: "Ingresa Tu Semestre"),
+                ),
+                SizedBox(height: 15),
+                TextFormField(
+                  decoration: InputDecoration(
+                    filled: true,
+                      icon: Icon(Icons.school),
+                      labelText: "Nombre de la escuela",
+                      hintText: "Ingresa el nombre de la escuela"),
+                ),
+                SizedBox(height: 15),
                 MaterialButton(
                   child: Text("Registrar", style: TextStyle(color: Colors.white),),
                   onPressed: (){},
