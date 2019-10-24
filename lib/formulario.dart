@@ -34,6 +34,7 @@ class _RegistroPageState extends State<RegistroPage> {
                       icon: Icon(Icons.format_list_numbered),
                       labelText: "No Control",
                       hintText: "Ingresa Tu Numero de control"),
+                      keyboardType: TextInputType.number
                 ),
                 SizedBox(height: 15),
                 TextFormField(
